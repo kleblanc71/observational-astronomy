@@ -1,0 +1,24 @@
+/* This is the main css file for project Observational Astronomy
+by K. LeBlanc
+Used for practice
+*/
+p {
+	font-family: Helvetica, Arial, sans-serif;
+}
+a,
+a:link {
+	color: #0066cc;
+	text-decoration: none;
+}
+a:visited {
+	color: #003399;
+}
+blockquote {
+	font-style: italic;
+	background: #d9d9d9;
+	display: block;
+	line-height: 1.5;
+}
+/*b {
+//	color: #000;
+/*}

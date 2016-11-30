@@ -3,6 +3,7 @@
 by K. LeBlanc
 Used for practice
 */
+/* standard page items styling */
 p {
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -14,6 +15,7 @@ a:link {
 a:visited {
 	color: #003399;
 }
+/* blockquote styling */
 blockquote {
 	font-style: italic;
 	background: #d9d9d9;
@@ -22,6 +24,7 @@ blockquote {
 	border-radius: 5px;
 	box-shadow: 7px 5px 2px #000;
 }
+/* all header styles */
 header {
 	background: #000;
 }
@@ -39,5 +42,22 @@ header h1 {
 header.banner a:link,
 header.banner a:visited {
 	color: #fff;
+}
+/* menu style */
+nav#menu {
+	text-align: center;
+}
+nav#menu ul {
+	list-style-type: none;
+}
+nav#menu ul li {
+	display: block;
+	margin: 30px 0;
+}
+nav#menu ul li a {
+	background: #ccc;
+	padding: 7px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px #000;
 }
 

@@ -25,10 +25,19 @@ blockquote {
 header {
 	background: #000;
 }
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 header h1 {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: #fff;
 	text-align: center;
-	padding-bottom: 20px;
+	padding: 20px 0 20px;
+}
+header.banner a:link,
+header.banner a:visited {
+	color: #fff;
 }
 
